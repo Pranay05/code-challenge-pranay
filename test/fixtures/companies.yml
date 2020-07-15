@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: companies
+#
+#  id       :bigint           not null, primary key
+#  name     :string
+#  zip_code :string
+#  phone    :string
+#  email    :string
+#  city     :string
+#  state    :string
+#
 hometown_painting:
   name: Hometown Painting
   email: "hometown_painting@hometown_painting.com"

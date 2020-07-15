@@ -19,7 +19,8 @@
       </div>
       <div class="col-lg offset-lg-1">
         <div class="form-group">
-          <%= f.text_field :zip_code, class: "form-control", placeholder: "93003", required: true %>
+          <%= f.number_field :zip_code, class: "form-control", placeholder: "93003", required: true, min: 0 %>
+          <!-- note- value can be set to min: 10000 for minmun 5 digits or can use custom jquery -->
         </div>
       </div>
     </div>
