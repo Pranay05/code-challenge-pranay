@@ -45,6 +45,6 @@ The City and State should be added as attributes to the Company object.
 
 For all functionality extend or add tests from existing tests.
 
-#### changes made pranay #####
+#### ☐ Changes made by Pranay  #####
 
 To check Test case Run rspec in console
